@@ -5,7 +5,6 @@ import TaskForm from './components/TaskForm';
 import TaskControl from './components/TaskControl';
 
 class App extends Component {
-
     constructor(props) {
         super(props);
         this.state = {
@@ -21,6 +20,7 @@ class App extends Component {
     }
 
     componentWillMount() {
+      console.log('ok');
         if(localStorage && localStorage.getItem('tasks')){
             var tasks = JSON.parse(localStorage.getItem('tasks'));
             this.setState({
