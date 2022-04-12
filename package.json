@@ -2,7 +2,7 @@
   "name": "todo-list-v2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thanhnguyen10101992.github.io/To-do-list-reactjs-new/",
+  "homepage": "https://thanhnguyen10101992.github.io/todolist/",
   "dependencies": {
     "gh-pages": "^3.2.3",
     "lodash": "^4.17.4",
@@ -17,5 +17,17 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
