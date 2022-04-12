@@ -20,7 +20,6 @@ class App extends Component {
     }
 
     componentWillMount() {
-      console.log('ok');
         if(localStorage && localStorage.getItem('tasks')){
             var tasks = JSON.parse(localStorage.getItem('tasks'));
             this.setState({
